@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry excluding="module-info.java" kind="src" path="src/main/java/fr.umlv.graalvmdemo"/>
-	<classpathentry kind="src" path="src/test/java/fr.umlv.graalvmdemo"/>
+	<classpathentry kind="src" path="src/main/java/fr.umlv.graalvmdemo"/>
+	<classpathentry excluding="module-info.java" kind="src" path="src/test/java/fr.umlv.graalvmdemo"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-11">
 		<attributes>
 			<attribute name="module" value="true"/>
@@ -38,6 +38,16 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="lib" path="deps/org.openjdk.jmh.generator.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="deps/org.apache.commons.math3.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="deps/net.sf.jopt-simple.jar">
 		<attributes>
 			<attribute name="module" value="true"/>
 		</attributes>
