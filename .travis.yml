@@ -1,0 +1,23 @@
+sudo: false
+dist: trusty
+language: java
+jdk: openjdk11
+
+env: GRAAL_HOME=graalvm-ce-1.0.0-rc15
+    
+# https://github.com/travis-ci/travis-ci/issues/8408
+before_install:
+  - unset _JAVA_OPTIONS
+
+install:
+  - java pro_wrapper.java
+  - wget https://github.com/oracle/graal/releases/download/vm-1.0.0-rc15/graalvm-ce-1.0.0-rc15-linux-amd64.tar.gz
+
+script:
+  - pro/target/pro/bin/pro
+  - bash ./execute-jdk11.sh
+  - bash ./execute-graal.sh
+  - bash ./generate-jlink.sh
+  - bash ./execute-jlink.sh
+  - bash ./generate-native-image.sh
+  - bash ./execute-native-image.sh
