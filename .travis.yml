@@ -13,6 +13,7 @@ install:
   - java pro_wrapper.java version
   - wget https://github.com/oracle/graal/releases/download/vm-19.2.1/graalvm-ce-linux-amd64-19.2.1.tar.gz
   - tar zxvf graalvm-ce-linux-amd64-19.2.1.tar.gz
+  - $GRAAL_HOME/bin/gu install native-image
 
 script:
   - ./pro/bin/pro
