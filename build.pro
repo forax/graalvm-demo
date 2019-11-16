@@ -21,7 +21,7 @@ compiler.
   sourceRelease(8)
 
 packager.
-  modules("fr.umlv.graalvmdemo@1.3/fr.umlv.graalvmdemo.Main")   
+  modules("fr.umlv.graalvmdemo@1.4/fr.umlv.graalvmdemo.Main")   
 
 run(resolver, modulefixer, compiler, packager)
     
