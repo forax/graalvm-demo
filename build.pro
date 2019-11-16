@@ -11,10 +11,10 @@ resolver.
     "org.objectweb.asm.tree.analysis:7.2",
     
     // JMH
-    "org.openjdk.jmh=org.openjdk.jmh:jmh-core:1.21",
+    "org.openjdk.jmh=org.openjdk.jmh:jmh-core:1.22",
     "org.apache.commons.math3=org.apache.commons:commons-math3:3.3.2",
     "net.sf.jopt-simple=net.sf.jopt-simple:jopt-simple:4.6",
-    "org.openjdk.jmh.generator=org.openjdk.jmh:jmh-generator-annprocess:1.21"
+    "org.openjdk.jmh.generator=org.openjdk.jmh:jmh-generator-annprocess:1.22"
     )
 
 compiler.
