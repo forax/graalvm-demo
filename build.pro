@@ -4,11 +4,11 @@ import static com.github.forax.pro.builder.Builders.*;
 resolver.
   dependencies(
     // ASM
-    "org.objectweb.asm:7.1",
-    "org.objectweb.asm.commons:7.1",
+    "org.objectweb.asm:7.2",
+    "org.objectweb.asm.commons:7.2",
     
-    "org.objectweb.asm.tree:7.1",
-    "org.objectweb.asm.tree.analysis:7.1",
+    "org.objectweb.asm.tree:7.2",
+    "org.objectweb.asm.tree.analysis:7.2",
     
     // JMH
     "org.openjdk.jmh=org.openjdk.jmh:jmh-core:1.21",
